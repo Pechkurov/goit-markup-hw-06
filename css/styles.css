@@ -852,6 +852,7 @@ margin-bottom: 16px;
     .container{
         max-width: 768px;
         padding: 0 16px;
+    
     }
     .ul-nav{
         display: flex;
@@ -925,7 +926,11 @@ height: 120px;
 display: flex;
 align-items: center;
 gap: 64px 24px;
+flex-wrap: wrap;
+
 }
+}
+
 /* ---------------SECTION 4 PORTFOLIO----- */
 .portfolio-list {
     width: calc((100% - 24px) / 2); 
