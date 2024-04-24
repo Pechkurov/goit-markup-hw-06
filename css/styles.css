@@ -143,6 +143,130 @@ font-style: normal;
     cursor: pointer;
     border: none;
 }
+/* -----------MOB--Menu__________))) */
+.mob-menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mobmenu.is-open{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.open-mob-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    top: 24px;
+    right: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.mob-icon-close{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 100%;
+}
+
+
+.mob-nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+ margin-left: 16px;
+ margin-top: 72px;
+ list-style: none;
+ margin-bottom:168px;
+}
+.mob-list{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.mob-underscore{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #404bbf;
+}
+
+
+.mob-address{
+margin-left: 16px;
+list-style: none;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 24px;
+margin-bottom: 48px;
+}
+.mob-tel-address{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.mob-post-address{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;
+}
+.mob-soc-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    fill: #f4f4fd;
+    margin-left: 16px;
+    margin-right: 24px;
+}
+.mob-icon-item{
+    width: 40px;
+    height: 40px;
+
+}
+.mob-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* ------------------------------SECTION ONE------------- */
 .section-one {
     background-color: #2e2f42;
