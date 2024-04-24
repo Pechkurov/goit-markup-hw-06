@@ -154,10 +154,10 @@ font-style: normal;
     top: 50%;
     transform: translateY(-50%);
 }
-.mobmenu.is-open{
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
+.mobmenu{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .open-mob-menu{
@@ -362,12 +362,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 cursor: pointer;
-
-
-
-/* margin: 0;
-margin-bottom: 8px;
-margin-top: 8px; */
 }
 /* .accomplishments-list {
     margin-bottom: 8px;
