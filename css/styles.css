@@ -362,6 +362,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 cursor: pointer;
+
 }
 /* .accomplishments-list {
     margin-bottom: 8px;
@@ -700,8 +701,8 @@ max-width: 280px;
         visibility: visible;
     } */
     .modal{
-        width: 408px;
-        min-height: 584px;
+        width: 288px;
+        min-height: 623px;
         background-color: #fcfcfc;
         border-radius: 4px;
         position: absolute;
@@ -935,6 +936,7 @@ max-width: 280px;
         color: #ffffff;
         font-family: "Roboto", sans-serif;
         cursor: pointer;
+        /* margin-left: 24px; */
     }
 .email{
     font-weight: 400;
@@ -965,8 +967,7 @@ margin-bottom: 16px;
 
 }
 /* -----768-----768-----768-------768------768 */
-@media screen and (min-width:768px) and 
-(max-width:1158px){
+@media screen and (min-width:768px){
     .container{
         max-width: 768px;
         padding: 0 16px;
@@ -1045,9 +1046,8 @@ display: flex;
 align-items: center;
 gap: 64px 24px;
 flex-wrap: wrap;
+}
 
-}
-}
 
 /* ---------------SECTION 4 PORTFOLIO----- */
 .portfolio-list {
@@ -1077,6 +1077,10 @@ padding-right: 24px;
 .subscribe-button{
     display: flex;
 margin-top: 0;
+}
+.modal{
+        width: 408px;
+        min-height: 584px;
 }
 }
 
@@ -1195,7 +1199,7 @@ margin: 0;
     .form {
         display: flex;
         text-align: start;
-        /* flex-wrap: wrap; */
+       gap: 0;
     }
     .footer-send{
         margin-left: 80px;
@@ -1206,5 +1210,9 @@ margin: 0;
     .subscribe-button{
         display: flex;
     margin-top: 0;
+    }
+    .modal{
+        width: 408px;
+        min-height: 584px;
     }
 }
