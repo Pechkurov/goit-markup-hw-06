@@ -275,7 +275,7 @@ padding-bottom: 188px;
 background-image:linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-     url(../images/people-office-mob.jpg);
+     url(../images/people-office-mob-1x.jpg);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
@@ -287,6 +287,14 @@ background-image:linear-gradient(
  0px 2px 1px rgba(46, 47, 66, 0.08);
  max-width: 1440px;
 }
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-one{
+        background-image:linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+             url(../images/people-office-mob-2x.jpg); 
+    }
 .top-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -1003,6 +1011,21 @@ margin-bottom: 16px;
         max-width: 496px;
         min-width: 169px;
     }
+    /* --Section One TAB-- */
+.section-one{
+    background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/people-office-tab-1x.jpg);
+}
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-one{
+        background-image:linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+             url(../images/people-office-tab-2x.jpg); 
+    }
     /* ----------SECTION 2 TAB -----------*/
     .ul-accomplishments{
         display: flex;
@@ -1120,7 +1143,16 @@ max-width: 496px;
     background-image:linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-     url(../images/people-office1.jpg);
+     url(../images/people-office1-1x.jpg);
+}
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-one{
+        background-image:linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+             url(../images/people-office1-2x.jpg); 
+    }
 }
 /* ---------SECTION 2 ------------*/
 .accomplishments-icon{
