@@ -143,7 +143,7 @@ font-style: normal;
     cursor: pointer;
     border: none;
 }
-/* -----------MOB--Menu__________))) */
+/* -----------MOB--Menu------------ */
 .mob-menu{
     width: 100%;
     height: 100%;
@@ -193,10 +193,10 @@ font-style: normal;
     justify-content: flex-start;
     flex-direction: column;
     gap: 40px;
- margin-left: 16px;
- margin-top: 72px;
- list-style: none;
- margin-bottom:168px;
+    margin-left: 16px;
+    margin-top: 72px;
+    list-style: none;
+    margin-bottom:168px;
 }
 .mob-list{
     font-weight: 700;
@@ -1130,10 +1130,12 @@ justify-content: center;
 margin-bottom: 8px;
 }
 .ul-accomplishments{
+    width: 1128px;
+    height: 224px;
     display: flex;
     gap: 24px;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 /* .section-two{
     padding: 60px 0;
