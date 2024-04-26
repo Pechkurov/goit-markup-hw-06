@@ -403,6 +403,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 margin-bottom: 72px;
+/* width: 264px; */
 /* margin: 0; */
 }
 .accomplishments-icon{
@@ -1064,8 +1065,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-width: 356px;
-height: 120px;
+/* width: 356px; */
+/* height: 120px; */
     }
 /* -----------SECTION 3 TEAM----------- */
 .team{
