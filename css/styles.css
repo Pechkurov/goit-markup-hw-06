@@ -45,6 +45,7 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-nav {
     display: flex;
@@ -99,7 +100,9 @@ height: 4px;
 background-color: #404bbf;
 left: 0;
 }
-.header{box-shadow: 0px 2px 1px 
+.header{
+    /* padding: 16px 0; */
+    box-shadow: 0px 2px 1px 
     rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16),
      0px 1px 6px rgba(46, 47, 66, 0.08);}
@@ -110,7 +113,7 @@ left: 0;
 
 /* ---------------------------ADDRESS---------------------- */
 .address {font-style: normal;
-margin-left: auto;}
+}
 .ul-address {
     list-style: none;
 }
@@ -617,10 +620,10 @@ transform: translateY(0);
 /* ------------------------------FOOTER------------------------- */
 .footer {
     padding: 96px 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: center;
+    align-items: center; */
     justify-content: center;
 }
 .footer-logo {
@@ -662,8 +665,11 @@ margin-bottom: 16px;
 max-width: 280px; */
 }
 .footer-container{
-    /* display: flex; */
+    display: flex;
  text-align: center;
+ /* flex-direction: column; */
+ gap: 72px;
+ align-items: center;
 }
 .footer-link:hover {
     background-color:#31d0aa;
@@ -965,7 +971,7 @@ color: #FFFFFF;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 border: 1px solid #fff;
 border-radius: 4px;
-width: 264px;
+width: 288px;
 height: 40px;
 background-color: transparent;
 padding-left: 16px;
@@ -985,9 +991,7 @@ margin-bottom: 16px;
         padding: 0 16px;
     
     }
-    .header-nav {
-        margin-top: 24px;
-    }
+    
     .ul-nav{
         display: flex;
         gap: 40px;
@@ -1090,11 +1094,12 @@ justify-content: center;
         flex-wrap: wrap;
 }
 .footer-container{
-    text-align: start;
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
    gap: 72px 24px;
    max-width: 530px;
+   
 }
 
 
@@ -1113,10 +1118,10 @@ margin-top: 0;
 @media screen and (min-width:768px) and (max-width:1157px){
     .ul-address{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 12px;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        /* padding-top: 12px;
+        padding-bottom: 12px; */
         /* margin-left: 120px; */
         justify-content: flex-end;
     }
